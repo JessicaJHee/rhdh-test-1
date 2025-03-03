@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mock-site
+  description: A mock site for testing RBAC permissions with includeTransitiveGroupOwnership config.
+  links:
+    - title: Janus Website
+      url: https://janus-idp.io
+spec:
+  type: website
+  owner: group:default/rhdh-qe-parent-team
