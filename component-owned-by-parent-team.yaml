@@ -8,4 +8,5 @@ metadata:
       url: https://janus-idp.io
 spec:
   type: website
+  lifecycle: experimental
   owner: group:default/rhdh-qe-parent-team
